@@ -1,8 +1,8 @@
 all:
-	cp mkpasswd /usr/sbin
+	@echo "run make install"
 
 install:
-	cp mkpasswd /usr/sbin
+	cp -vf mkpasswd /usr/sbin
 
 clean:
 	rm -f *.deb
