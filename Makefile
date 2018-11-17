@@ -6,3 +6,6 @@ install:
 
 clean:
 	rm -f *.deb
+
+distclean:
+	rm -f *.deb
